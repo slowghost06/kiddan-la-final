@@ -1,0 +1,83 @@
+@import '../variables';
+@import '../mixins';
+@import '../animations';
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  background-color:$background-color-base;
+  .content{
+    top: 0;
+    //height: $nav-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: $margin-gap*.01;
+    padding-bottom: $margin-gap*.01;
+    .logo-container{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      animation: opacity 1s forwards ease-in-out;
+      .logo{
+        height: 4rem;
+        margin-left: 1rem;
+      }
+    }
+    .links-container{
+      display: none;
+      animation: opacity 1s forwards ease-in-out;
+      @include md{
+        display: inline;
+      }
+      .links{
+        li{
+          a{
+            font-size: $font-size-ter*1.4;
+          }
+          &:hover{
+            animation: getbig 0.5s forwards ease-in-out;
+          }
+        }
+      }
+    }
+    .burger{
+      display: flex;
+      padding-right: 1rem;
+      @include md{
+        display: none;
+      }
+      animation: opacity 1s forwards ease-in-out;
+      button {
+        background: none;
+        color: $text-color-primary;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        font-size: $font-size-sec;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .links{
+      display: flex;
+      justify-content: space-between;
+      li{
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        a{
+          color: $text-color-primary;
+          font-family: $font-family-sec;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+
+}

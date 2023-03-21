@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap');
+
+@import 'mixins';
+
+//$background-color-base: #2596be;
+$background-color-base: #39a6de;
+$color-primary: #fbc031;
+$text-color-primary: #f9f9f9;
+$color-secondary: #000;
+$color-tertiary: rgba(255, 62, 10,0.6);//#FF3E0A;
+
+//$font-family-base: 'Climate Crisis', cursive;
+//$font-family-sec: 'Raleway', sans-serif;
+
+$font-family-base: 'Eczar', serif;
+$font-family-sec: 'Montserrat', sans-serif;
+
+//$font-family-sec: 'Manrope', sans-serif;
+
+$font-size-base: 4rem;
+$font-size-sec: 2rem;
+$font-size-ter: 1rem;
+
+$nav-height: 3rem;
+$footer-height: 20rem;
+$margin-gap: 2rem;
+$content-start: 7rem;

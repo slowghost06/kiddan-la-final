@@ -1,0 +1,47 @@
+@import '../animations';
+@import '../variables';
+@import '../mixins';
+
+.videocard{
+  margin-bottom: 10px;
+  .card {
+    @include boxoutlineshadow();
+    box-shadow: none;
+    border: 0px solid black;
+    animation: boxshadowappearing 0.5s forwards ease-in;
+    position: relative;
+    display: block;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-radius: 8px;
+    animation: none;
+    display: block;
+  }
+  
+  .card-body {
+    display: flex;
+    justify-content: center;
+    animation: none;
+  }
+  
+  .card-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    color: $text-color-primary;
+    font-family: $font-family-sec;
+    font-weight: 800;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.0));
+  }
+}
+.videocard:hover{
+  animation: getbig 1s forwards ease-in;
+}

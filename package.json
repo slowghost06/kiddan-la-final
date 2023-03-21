@@ -1,0 +1,31 @@
+{
+  "name": "kiddan-la",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "google-spreadsheet": "3.3.0",
+    "react": "18.3.0-next-fecc288b7-20221025",
+    "react-bootstrap": "2.7.2",
+    "react-dom": "18.3.0-next-fecc288b7-20221025",
+    "react-icons": "4.8.0",
+    "react-paginate": "8.1.4",
+    "react-player": "2.12.0",
+    "react-responsive-masonry": "2.1.7",
+    "react-responsive-modal": "6.4.1",
+    "react-router-dom": "6.8.2",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "CLIENT_EMAIL": "kiddanlawebsite@kiddan-la.iam.gserviceaccount.com",
+  "PORTFOLIO_LIST": "16NG-xaINdGEAk8ErP_XvjlBT6vW3vs-P1Kfd9PhrkpE",
+  "MEMBERS_LIST": "1H5UEywJq6LVh0Uk_QBXjm_Oks0YptweXQedR4_d0yYA",
+  "PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnRkJ+l2ic8kTY\nzqfE9Qaylk6OokeLWBNnJRodl8SHNvz1yNOiUk/6SB4XBobMhmSogrE2H1T55ggg\ntbX9lU5Qww8k1KyVFpfLhYTIpTVkgckV4THcKn2+/vHVul6FwLry9ZSkotBEj3rl\n+NGc2fIDwzUR0gCrv1aG8cx3F1dGChbYQ8rJXiu+zBvALfeq9AfrEfXAhKfwStAP\n4k+KPdcvbpu15+EBIK9mz7P1UoyZ4p5CIGSvPEx+veCzhOJG9NKolf3LY48Ky/ve\nFpBHt4zbO4lX4d3q50s0SQfR/vOrvN1kQvIJQoFtkwHqNXRrjHtmI2UNbWxe7ur7\n3xA4kHl/AgMBAAECggEAG45/ENTHpqdgwSjWSaOmDVCms2e3ipShaaoakcp5VV8x\nMBp8Bu8xfsVXs6pfFZ2EQqB5KjXiLWMAbscQqqxooPRpb8NbhRoaOqyN0fIpiBu7\ncU/Og3s6iPb+BxwzSyyTf8gGS1MJJWpPsEgb3A+ph4YmnX9vnduhGQ0Hho0BUye8\nyU+hEWiQoJ2qHZznRIQ0mJf9izyuM0XG+I4bjlEPUsVWEKpYUV5E1oW/GMD8BHzW\np+RDEtw6zU24nG07sUYZNppTiSZPukKupRlqvOsfqq2mFj8jvliddn+0XCW3y7AF\nBSsI3aacmjt9OoiapjPMH5xh9x2oWUw1Sb1urpM5zQKBgQDl6wEykRKC/NFceMO1\nIEwonyjGSue/i8YImfCe38DlPA+VU+0z/Dd+mw1YZQ7SXKsEP2//leLX/CNCs6vk\n7p1VPIXHFc83yM/z4WzLvwcSOn+rnJTWVU6g5PWTo79CuJyzKRsNtxlbMW6oo6/A\nnNMBlClPA2sgzN7ux6I8rQRg/QKBgQC6QAnhPPy8KUVuvJWeePrDvJ70IM3HR+NA\nW3HcABVbzWTEWLLFfwK5DvGETLiC8eCvIcPHoPisWYYAjWJ0HYHEhBUACAoYMhOI\nC6W0f0FpsNaYLUCg+UI31B4eUDmxjnyuj1R37omyNPqeG+3BZhNYnVZkiSJ47nbg\n8vR2BvebKwKBgCpTni/R90d4BY7xiI3yuTKNQnNm3M0tjTKOLHcDGD7bVL8X6UY1\nu32qS8WnLRhbCPzKNPMng9BhUZh4/T8zEnHbp4EkKbbKWEY8jMvhigq4DELqm5ft\nsoD6RZ99eLtuwyJUge9/csKQEiAnqjZaaJoUzZoHNhSewrfQtrRW4cR9AoGAQ9Yb\nQxxxeR8XGPQ7EpNB0pUa2BQynwjB7qjf2Z92KA+xSgp8Yo6WMU0ODn/bHGZ4zZDg\nvA8XQ77/nafhWiV9JFRvSamj85gZoQ2M9yb6bkJohtjEl1zyD1+E8MmLme4p33J4\n843APVYqiffmKvDAzx/PXaLNGXrRdbFH9M0o1i0CgYEAytyuFTpE+Rf1bCc0Tv+G\nVBiUhsQLaocQZ4D3d5G4NGN0C6Ll6ijnbGuEx0F2UECc+DePQrm7/Xl5W3jFyRJN\n8qls6J2Qcuy9Ux+Q7NpN+9nlzbvPdimsxRtwmhgzv7hAyJy7Ga9qHvzMO5ZNwVP8\ndVKY2Lt98YJ3XpBiACHswfw=\n-----END PRIVATE KEY-----\n"
+}

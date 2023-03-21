@@ -1,0 +1,127 @@
+@import './variables';
+@import './mixins';
+
+@keyframes wiggle {
+ 0% { transform: rotate(0deg) scale(1.0);}
+ 33% { transform: rotate(2deg) scale(1.05);}
+ 67% { transform: rotate(-2deg) scale(1.05);}
+100% { transform: rotate(0deg) scale(1.05);}
+}
+
+@keyframes wigglemore {
+  0% { transform: rotate(0deg) scale(1.0);}
+  33% { transform: rotate(5deg) scale(1.1);}
+  67% { transform: rotate(-5deg) scale(1.1);}
+ 100% { transform: rotate(0deg) scale(1.1);}
+ }
+
+ @keyframes getbig {
+  0% { transform: scale(1.0);}
+  33% { transform: scale(1.05);}
+  67% { transform: scale(1.05);}
+ 100% { transform: scale(1.05);}
+ }
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeinlogo {
+  0%{
+    opacity: 0;
+    transform: translateY(4rem);
+    height: 0;
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+    height: 50vh;
+  }
+}
+
+@keyframes opacity {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes textshadowappearing{
+  from{
+    text-shadow: none;
+  }
+  to{
+    @include colorstroke($color-tertiary);
+  }
+}
+
+@keyframes boxshadowappearing{
+  from{
+    box-shadow: none;
+    border: 0px solid rgba(0,0,0,0);
+  }
+  to{
+    @include boxoutlineshadow();
+  }
+}
+/*
+@keyframes fadeinout {
+  0%{
+    //opacity: 0;
+    //transform: translateY(4rem);
+    height: 0;
+  }
+  12%{
+    //opacity: 1;
+    //transform: translateY(0rem);
+    height: 50vh;
+  }
+  38%{
+    opacity: 1;
+    transform: translateY(0rem);
+    height: 50vh;
+  }
+  50%{
+    opacity: 0;
+    transform: translateY(-4rem);
+    height: 0;
+    width: 100%;
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(-4rem);
+    height: 0;
+    width: 0%;
+  }
+}
+*/
+@keyframes fadeout {
+  0%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+@keyframes db{
+  0%{
+    background-color: rgba($color: #000000, $alpha: 0.0);
+  }
+  100%{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+}

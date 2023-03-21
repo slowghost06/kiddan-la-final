@@ -1,0 +1,70 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+      @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+      @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+      @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+      @content;
+  }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+  @media (min-width: $screen) {
+      @content;
+  }
+}
+
+@mixin stroke($color: #000, $size: 1px) {
+  text-shadow:
+    -#{$size} -#{$size} 0 $color,
+     0        -#{$size} 0 $color,
+     #{$size} -#{$size} 0 $color,
+     #{$size}  0        0 $color,
+     #{$size}  #{$size} 0 $color,
+     0         #{$size} 0 $color,
+    -#{$size}  #{$size} 0 $color,
+    -#{$size}  0        0 $color;
+}
+
+@mixin colorstroke($color: #000) {
+  text-shadow: 
+  -2px -2px 0px rgba(255,255,255,0.6),
+  5px 5px 0px $color, 
+  10px 10px 0px rgba(0,0,0,0.6);
+}
+
+@mixin boxoutlineshadow(){
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border: 2px solid rgba(0,0,0,1);
+}
